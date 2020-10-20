@@ -32,6 +32,7 @@ Select the corresponding image file and run Project.py
 For Easier tuning of hyper parameters for Hough Transform use Project1tune.py
 For Videos select the appropriate video and run Projectvideo.py
 The Challenge Video is solved by running Projectchallenge.py
+Use only VLC player to open the video in Output.
 ```
 
 <h2> Project Images </h2>
