@@ -1,7 +1,7 @@
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+<img src="./Output/solidYellowCurve2.jpg" width="480" alt="Combined Image" />
 
 <h2> Introduction </h2>
   <p>The project focusses on lane dectetion in images as well as in video using OpenCV. The pipeline is as below.
@@ -24,6 +24,23 @@
   </UL>
   </p>
 
+<h2> Project Setup </h2>
 
+```
+Install cv2 library
+Select the corresponding image file and run Project.py
+For Easier tuning of hyper parameters for Hough Transform use Project1tune.py
+For Videos select the appropriate video and run Projectvideo.py
+The Challenge Video is solved by running Projectchallenge.py
+```
 
+<h2> Project Images </h2>
+<p> The Output images and video are located in Output Folders </p>
 
+<h3> Sample output image after lane detection </h3>
+
+<img src="./Output/solidYellowCurve2.jpg" width="480" alt="sample" />
+
+<h3> Image of Tuner </h3>
+
+<img src="./Output/Tuner.jpg" width="480" alt="tuner" />
