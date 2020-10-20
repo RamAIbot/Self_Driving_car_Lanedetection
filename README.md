@@ -43,4 +43,4 @@ The Challenge Video is solved by running Projectchallenge.py
 
 <h3> Image of Tuner </h3>
 
-<img src="./Output/Tuner.jpg" width="480" alt="tuner" />
+<img src="./Output/Tuner.JPG" width="480" alt="tuner" />
