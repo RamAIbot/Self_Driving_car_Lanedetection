@@ -10,7 +10,7 @@
       <LI> Now a Gaussian Blur is added to the image with a kernel size of 5X5 </LI>
       <LI> Now Canny edge detection algorithm is applied to this image to get the edges in the image. It uses a gradients to find out the edges.</LI>
       <LI> The threshold values are chosen between 50 and 150 </LI>
-      <LI> Now we crop the image to get more focus on the road section of the image thereby eliminating the sky areas. <LI/>
+      <LI> Now we crop the image to get more focus on the road section of the image thereby eliminating the sky areas. </LI>
       <LI> We use OpenCV fillPoly function to get the mask of the road surface and then bitwise and with the image from Canny. </LI>
       <LI> Now we have the edges of the roads and we need to connect the nearby edges to get the lanes </LI>
       <LI> We use Hough transform to get the lines with the parameters.</LI>
