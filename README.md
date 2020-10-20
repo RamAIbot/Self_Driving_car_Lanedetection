@@ -34,6 +34,14 @@ For Videos select the appropriate video and run Projectvideo.py
 The Challenge Video is solved by running Projectchallenge.py
 Use only VLC player to open the video in Output.
 ```
+<h2> Project Structure and Execution </h2>
+
+```
+The Code in Project.py works for all images with the hyperparameters for hough transform as above.
+The Code in Projectvideo.py works for videos with the hyperparameters tuned for solidWhiteRight.mp4 and solidYellowLeft.mp4
+The Code in Projectchallenge.py works for videos with hyperparameters tuned for challenge.mp4
+
+```
 
 <h2> Project Images </h2>
 <p> The Output images and video are located in Output Folders </p>
@@ -45,3 +53,6 @@ Use only VLC player to open the video in Output.
 <h3> Image of Tuner </h3>
 
 <img src="./Output/Tuner.JPG" width="480" alt="tuner" />
+
+<h2> Shortcomings </h2>
+  <p> The current pipelines shows a major defect while gathering a distinction between the natural sunlight and marked lines on the road which is also white. Also the camera position plays a crucial role in the code stability, so that we don't need to change the change the boundaries of the polygon while masking the road surface in the image neglecting the sky areas. </p>
